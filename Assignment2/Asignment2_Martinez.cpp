@@ -1,5 +1,5 @@
 #include <iostream>
-#include <iomanip> 
+#include <iomanip> //used for input and output manipulators.
 using namespace std;
 int main(){
 // Step 1 should be to set up varibales to store your inputs so the terminal can send back a output to the user. Here our varibales should be the book nmae, author name, and price. these should be represented as strings and a double.
