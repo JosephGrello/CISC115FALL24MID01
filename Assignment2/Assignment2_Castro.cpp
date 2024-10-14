@@ -31,7 +31,7 @@ int main()
      cout << "Computer Science I Coding Assignment 2 - Raymond Castro"
           << endl << endl; // Outputs the title of the program
      cout << "This C++ program collects and displays details for a book "
-          << "chosen by the user. Using predefined functions, manipulators"
+          << "chosen by the user. Using predefined functions, manipulators, "
           << "and debugging techniques, the program takes in the user's\n"
           << "input of a book's title, author, and price, then neatly "
           << "outputs the data. It also prompts the user to input the "
