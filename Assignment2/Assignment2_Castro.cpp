@@ -32,7 +32,7 @@ int main()
           << endl << endl; // Outputs the title of the program
      cout << "This C++ program collects and displays details for a book "
           << "chosen by the user. Using predefined functions, manipulators"
-          << "and debugging techniques, the program takes in the user's"
+          << "and debugging techniques, the program takes in the user's "
           << "input of a book's title, author, and price, then neatly "
           << "outputs the data. It also prompts the user to input the "
           << "price again if it was an invalid input." << endl << endl;
