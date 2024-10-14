@@ -72,9 +72,9 @@ int main()
      cout << "----- Book Details -----" << endl; /* Outputs the inputted
      user data in a neat manner, with whitespace between the titles and
      data */
-     cout << "Title: " << setw(4) << bookTitle << endl;
-     cout << "Author: " << setw(3) << authorName << endl;
-     cout << "Price: $" << setw(2) << bookPrice << endl << endl;
+     cout << "Title: " << setw(15) << bookTitle << endl;
+     cout << "Author: " << setw(17) << authorName << endl;
+     cout << "Price: $" << setw(4) << bookPrice << endl << endl;
     
      return 0; // Terminates the program
 }
