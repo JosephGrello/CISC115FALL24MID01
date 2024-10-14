@@ -9,7 +9,7 @@
 // user will input their book's title, author, and price, which the
 // program will output in a neat format. The program will also ask the
 // user to reenter the price if they enter an invalid input.
-//************************f*********************************************
+//**********************************************************************
 
 // Header files
 #include <iostream>
