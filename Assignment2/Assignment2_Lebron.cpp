@@ -39,7 +39,7 @@ int main() {
 
     // Demonstrate usage of input stream functions: get(), putback(), and peek()
     cin.ignore(); // To ignore any remaining newline character in the buffer.
-    cout << "\nPress any key followed by Enter to continue: ";
+    cout << "\nEnter X to continue: ";
     char ch = cin.get(); // Read a character
     cin.putback(ch);     // Put the character back into the input stream
 
