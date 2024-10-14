@@ -33,11 +33,12 @@ int main() {
 
     // Displaying the entered book information in a formatted way
     cout << "\nBook Information:\n";
-    cout << setw(8) << left << "Title:" << title << endl;
-    cout << setw(8) << left << "Author:" << author << endl;
-    cout << setw(8) << left << "Price:" << fixed << setprecision(2) << "$" << price << endl;
+    cout << setw(10) << left << "Title:" << title << endl;
+    cout << setw(10) << left << "Author:" << author << endl;
+    cout << setw(10) << left << "Price:" << fixed << setprecision(2) << "$" << price << endl;
 
     // Demonstrate usage of input stream functions: get(), putback(), and peek()
+    cin.ignore(); // To ignore any remaining newline character in the buffer.
     cout << "\nPress any key followed by Enter to continue: ";
     char ch = cin.get(); // Read a character
     cin.putback(ch);     // Put the character back into the input stream
