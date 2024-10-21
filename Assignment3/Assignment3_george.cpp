@@ -64,7 +64,7 @@ if(seat_type > 2){
         while(seat_type > 2){
             cout <<"Invalid seat type entered, please make sure your seat type number is between 1 or 2 : ";
             cin >> (seat_type);
-        }
+        }}else{
 
     switch(seat_type){
         case 1:{
@@ -75,7 +75,7 @@ if(seat_type > 2){
             TicketPrice = TicketPrice + 5;
         }
     }
-    }
+}
 
     //adding the charge for premium seat type or not
 
@@ -88,14 +88,14 @@ if(loyaltyMember > 1 || loyaltyMember < 0){
     while(loyaltyMember > 1 || loyaltyMember < 0){                                                      //Making sure that the enter vaule stays between 1 or 0
             cout <<"Invalid vaule entered, please make sure your entered vaule is between 1 or 0: ";
             cin >> (loyaltyMember);
-}
+}}else{
     if(loyaltyMember == 1){
         cout << "Thank you for being a loyalty member, we have applided your 15 precent discount";
         Discount = TicketPrice * 0.15;
         TicketPrice = TicketPrice - Discount;
         Discount =0;
-    }
-}
+    }}
+
     //adding loyalty member discount 
 
 
