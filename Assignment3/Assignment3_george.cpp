@@ -47,7 +47,7 @@ int main() {
         }}
 
     //Making sure that the entered time vaule is valid 
-    if(Showtime >=9 || Showtime <= 17){
+    if(Showtime >=9 && Showtime <= 17){
         Discount = TicketPrice * 0.10;
         TicketPrice = TicketPrice - Discount;
         Discount = 0;
